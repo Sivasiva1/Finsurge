@@ -1,0 +1,9 @@
+ID,Name,Age,Salary,Joining Date,Department,Email
+101,Alice,25.0,50000.0,2023-05-10,HR,alice@example.com
+102,Bob,,60000.0,12-06-2023,IT,bob_at_example.com
+103,Carol,30.0,55000.0,2023-07-15,,carol@example.com
+104,,28.0,,2023-08-20,Finance,daniel@example.com
+105,Eve,26.0,45000.0,Invalid Date,Sales,eve@example.com
+106,Frank,29.0,70000.0,2023/10/10,IT,frank@example.com
+107,Grace,,48000.0,2023-11-12,Marketing,
+108,Henry,32.0,62000.0,2023-12-01,HR,henry@example.com
