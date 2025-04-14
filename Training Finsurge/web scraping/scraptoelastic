@@ -1,0 +1,40 @@
+from elasticsearch import Elasticsearch, helpers
+import pandas as pd
+
+es = Elasticsearch("http://localhost:9200")
+
+# Index name in Elastic DB
+index_name = "news_index"
+if not es.indices.exists(index=index_name):
+    es.indices.create(index=index_name)
+    print("-------------index created------------------")
+new_data = pd.read_csv(r"C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\web scraping\new.csv")
+
+query = {"query": {"match_all": {}}}  
+
+existing_data = helpers.scan(es, index=index_name, query=query)
+existing_df = pd.DataFrame([doc["_source"] for doc in existing_data])
+
+# Compare & Remove Duplicates 
+if not existing_df.empty:
+    filtered_data = new_data.merge(existing_df, on="headline", how="left", indicator=True,suffixes=("","_existing"))
+    filtered_data = filtered_data[filtered_data["_merge"] == "left_only"].drop(columns=["_merge"])
+else: 
+    filtered_data = new_data  
+
+filtered_data = filtered_data.fillna("")
+
+# Insert Only New Records into Elastic DB
+actions = [
+    {
+        "_index": index_name,
+        "_source": record 
+    }
+    for record in filtered_data.to_dict(orient="records") 
+] 
+if actions:
+    helpers.bulk(es, actions) 
+    print(f"Inserted {len(actions)} new records into Elastic DB.")
+else:
+    print("No new records to insert.") 
+

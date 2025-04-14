@@ -1,0 +1,5 @@
+database:
+  db_name: TRAINING
+  host: 192.168.19.18
+  password: gAAAAABn4-NwWCy3B6vhi2lUcaJdaRf9LNzOWYX_el5Oqy-jYkFR2IIlCSd6RKgSGMx3DbiBTLK8Uc-_fp_yXsE9p-Boed2jnA==
+  user: traininguser

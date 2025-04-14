@@ -1,0 +1,10 @@
+2025-03-28 08:11:35 - [DBThread] - INFO - Thread Started Successfully
+2025-03-28 08:11:35 - [DBThread] - INFO - Config file loaded successfully.
+2025-03-28 08:11:35 - [DBThread] - INFO - Password decrypted successfully.
+2025-03-28 08:11:35 - [DBThread] - INFO - Database configuration retrieved successfully.
+2025-03-28 08:11:35 - [DBThread] - INFO - Database configuration initialized successfully.
+2025-03-28 08:11:35 - [DBThread] - INFO - Database connected successfully.
+2025-03-28 08:11:35 - [DBThread] - INFO - Query executed successfully: SELECT * FROM emp1
+2025-03-28 08:11:35 - [DBThread] - INFO - Data Updated Successfully: UPDATE emp1 SET NAME = 'SACHIN' WHERE ID = 1
+2025-03-28 08:11:35 - [DBThread] - INFO - Database connection closed.
+2025-03-28 08:11:35 - [MainThread] - INFO - Thread Ended Successfully
