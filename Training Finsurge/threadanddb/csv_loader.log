@@ -1,0 +1,432 @@
+2025-04-30 08:37:27,139 - INFO - [MAIN THREAD] Scanning folder at 2025-04-30 08:37:27
+2025-04-30 08:37:27,625 - INFO - Starting thread for: clerks_20250430083727.csv
+2025-04-30 08:37:27,627 - INFO - Starting thread for: employees_20250430083727.csv
+2025-04-30 08:37:27,629 - INFO - Starting thread for: hrs_20250430083727.csv
+2025-04-30 08:37:27,630 - INFO - Starting thread for: interns_20250430083727.csv
+2025-04-30 08:37:27,633 - INFO - Starting thread for: managers_20250430083727.csv
+2025-04-30 08:37:27,635 - INFO - Starting thread for: principals_20250430083727.csv
+2025-04-30 08:37:27,638 - INFO - Starting thread for: staffs_20250430083727.csv
+2025-04-30 08:37:27,640 - INFO - Starting thread for: students_20250430083727.csv
+2025-04-30 08:37:27,645 - INFO - Starting thread for: teachers_20250430083727.csv
+2025-04-30 08:37:27,648 - INFO - Starting thread for: workers_20250430083727.csv
+2025-04-30 08:37:27,650 - INFO - Start inserting: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\employees_20250430083727.csv into emps
+2025-04-30 08:37:27,651 - INFO - Start inserting: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\clerks_20250430083727.csv into clerks
+2025-04-30 08:37:27,691 - INFO - Start inserting: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\workers_20250430083727.csv into workers
+2025-04-30 08:37:27,734 - INFO - Start inserting: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\interns_20250430083727.csv into interns
+2025-04-30 08:37:27,735 - INFO - Start inserting: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\managers_20250430083727.csv into managers
+2025-04-30 08:37:27,740 - INFO - Start inserting: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\hrs_20250430083727.csv into hr
+2025-04-30 08:37:27,742 - INFO - Start inserting: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\principals_20250430083727.csv into principals
+2025-04-30 08:37:27,751 - INFO - Start inserting: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\staffs_20250430083727.csv into staffs
+2025-04-30 08:37:27,751 - INFO - Start inserting: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\students_20250430083727.csv into students
+2025-04-30 08:37:27,768 - INFO - Start inserting: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\teachers_20250430083727.csv into teachers
+2025-04-30 08:37:28,946 - INFO - Inserted C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\employees_20250430083727.csv into emps in 1.28 seconds
+2025-04-30 08:37:28,947 - INFO - Moved file to: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\OUT\employees_20250430083727.csv
+2025-04-30 08:37:28,972 - ERROR - Error processing C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\workers_20250430083727.csv: (pymysql.err.DataError) (1366, "Incorrect integer value: 'uhudehuo' for column 'id' at row 1")
+[SQL: 
+                INSERT INTO workers (id, workername, Roles)
+                SELECT id, workername, Roles FROM temp_workers;
+            ]
+(Background on this error at: https://sqlalche.me/e/20/9h9h)
+2025-04-30 08:37:28,976 - ERROR - Insertion failed for C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\workers_20250430083727.csv: (pymysql.err.DataError) (1366, "Incorrect integer value: 'uhudehuo' for column 'id' at row 1")
+[SQL: 
+                INSERT INTO workers (id, workername, Roles)
+                SELECT id, workername, Roles FROM temp_workers;
+            ]
+(Background on this error at: https://sqlalche.me/e/20/9h9h)
+2025-04-30 08:37:28,980 - INFO - Moved file to: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\NOT_PROCESSED\workers_20250430083727.csv
+2025-04-30 08:37:29,006 - INFO - Inserted C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\hrs_20250430083727.csv into hr in 1.24 seconds
+2025-04-30 08:37:29,009 - INFO - Moved file to: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\OUT\hrs_20250430083727.csv
+2025-04-30 08:37:29,026 - INFO - Inserted C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\interns_20250430083727.csv into interns in 1.26 seconds
+2025-04-30 08:37:29,028 - INFO - Moved file to: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\OUT\interns_20250430083727.csv
+2025-04-30 08:37:29,034 - INFO - Inserted C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\managers_20250430083727.csv into managers in 1.26 seconds
+2025-04-30 08:37:29,039 - INFO - Moved file to: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\OUT\managers_20250430083727.csv
+2025-04-30 08:37:29,045 - INFO - Inserted C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\clerks_20250430083727.csv into clerks in 1.35 seconds
+2025-04-30 08:37:29,047 - INFO - Moved file to: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\OUT\clerks_20250430083727.csv
+2025-04-30 08:37:29,058 - INFO - Inserted C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\teachers_20250430083727.csv into teachers in 1.25 seconds
+2025-04-30 08:37:29,061 - INFO - Moved file to: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\OUT\teachers_20250430083727.csv
+2025-04-30 08:37:29,065 - INFO - Inserted C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\principals_20250430083727.csv into principals in 1.28 seconds
+2025-04-30 08:37:29,067 - INFO - Moved file to: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\OUT\principals_20250430083727.csv
+2025-04-30 08:37:29,075 - INFO - Inserted C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\staffs_20250430083727.csv into staffs in 1.28 seconds
+2025-04-30 08:37:29,079 - INFO - Moved file to: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\OUT\staffs_20250430083727.csv
+2025-04-30 08:37:29,082 - INFO - Inserted C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\students_20250430083727.csv into students in 1.28 seconds
+2025-04-30 08:37:29,084 - INFO - Moved file to: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\OUT\students_20250430083727.csv
+2025-04-30 08:37:37,604 - INFO - [RETRY THREAD] Retrying file: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\NOT_PROCESSED\retry_workers_20250430083727.csv
+2025-04-30 08:37:37,606 - INFO - Start inserting: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\NOT_PROCESSED\retry_workers_20250430083727.csv into workers
+2025-04-30 08:37:38,111 - ERROR - Error processing C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\NOT_PROCESSED\retry_workers_20250430083727.csv: (pymysql.err.DataError) (1366, "Incorrect integer value: 'uhudehuo' for column 'id' at row 1")
+[SQL: 
+                INSERT INTO workers (id, workername, Roles)
+                SELECT id, workername, Roles FROM temp_workers;
+            ]
+(Background on this error at: https://sqlalche.me/e/20/9h9h)
+2025-04-30 08:37:38,114 - INFO - Moved file to: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\NOT_PROCESSED\dataerror\retry_workers_20250430083727.csv
+2025-04-30 08:37:38,115 - ERROR - [RETRY THREAD] Moved workers_20250430083727.csv to DATAERROR folder due to data error.
+2025-04-30 08:37:44,087 - INFO - [MAIN THREAD] Scanning folder at 2025-04-30 08:37:44 
+
+2025-04-30 11:10:39,347 - INFO - [MAIN THREAD] Scanning folder at 2025-04-30 11:10:39
+2025-04-30 11:10:54,502 - INFO - [MAIN THREAD] Scanning folder at 2025-04-30 11:10:54
+2025-04-30 11:11:09,718 - INFO - [MAIN THREAD] Scanning folder at 2025-04-30 11:11:09
+2025-04-30 11:11:24,872 - INFO - [MAIN THREAD] Scanning folder at 2025-04-30 11:11:24
+2025-04-30 11:11:39,896 - INFO - [MAIN THREAD] Scanning folder at 2025-04-30 11:11:39
+2025-04-30 11:11:54,923 - INFO - [MAIN THREAD] Scanning folder at 2025-04-30 11:11:54
+2025-04-30 11:12:10,150 - INFO - [MAIN THREAD] Scanning folder at 2025-04-30 11:12:10
+2025-04-30 11:12:25,301 - INFO - [MAIN THREAD] Scanning folder at 2025-04-30 11:12:25
+2025-04-30 11:12:40,459 - INFO - [MAIN THREAD] Scanning folder at 2025-04-30 11:12:40
+2025-04-30 11:12:55,522 - INFO - [MAIN THREAD] Scanning folder at 2025-04-30 11:12:55
+2025-04-30 11:13:10,666 - INFO - [MAIN THREAD] Scanning folder at 2025-04-30 11:13:10
+2025-04-30 11:13:25,914 - INFO - [MAIN THREAD] Scanning folder at 2025-04-30 11:13:25
+2025-04-30 11:13:40,942 - INFO - [MAIN THREAD] Scanning folder at 2025-04-30 11:13:40
+2025-04-30 11:13:56,209 - INFO - [MAIN THREAD] Scanning folder at 2025-04-30 11:13:56
+2025-04-30 11:14:11,233 - INFO - [MAIN THREAD] Scanning folder at 2025-04-30 11:14:11
+2025-04-30 11:14:26,331 - INFO - [MAIN THREAD] Scanning folder at 2025-04-30 11:14:26
+2025-04-30 11:14:41,358 - INFO - [MAIN THREAD] Scanning folder at 2025-04-30 11:14:41
+2025-04-30 11:14:56,383 - INFO - [MAIN THREAD] Scanning folder at 2025-04-30 11:14:56
+2025-04-30 11:15:11,408 - INFO - [MAIN THREAD] Scanning folder at 2025-04-30 11:15:11
+2025-04-30 11:15:26,431 - INFO - [MAIN THREAD] Scanning folder at 2025-04-30 11:15:26
+2025-04-30 11:15:41,597 - INFO - [MAIN THREAD] Scanning folder at 2025-04-30 11:15:41
+2025-04-30 11:15:56,622 - INFO - [MAIN THREAD] Scanning folder at 2025-04-30 11:15:56
+2025-04-30 11:16:11,704 - INFO - [MAIN THREAD] Scanning folder at 2025-04-30 11:16:11
+2025-04-30 11:16:26,732 - INFO - [MAIN THREAD] Scanning folder at 2025-04-30 11:16:26
+2025-04-30 11:16:41,810 - INFO - [MAIN THREAD] Scanning folder at 2025-04-30 11:16:41
+2025-04-30 11:16:56,881 - INFO - [MAIN THREAD] Scanning folder at 2025-04-30 11:16:56
+2025-04-30 11:17:11,909 - INFO - [MAIN THREAD] Scanning folder at 2025-04-30 11:17:11
+2025-04-30 11:17:26,983 - INFO - [MAIN THREAD] Scanning folder at 2025-04-30 11:17:26
+2025-04-30 11:17:42,126 - INFO - [MAIN THREAD] Scanning folder at 2025-04-30 11:17:42
+2025-04-30 11:17:57,281 - INFO - [MAIN THREAD] Scanning folder at 2025-04-30 11:17:57
+2025-04-30 11:18:12,539 - INFO - [MAIN THREAD] Scanning folder at 2025-04-30 11:18:12
+2025-04-30 11:26:41,567 - INFO - [MAIN THREAD] Scanning folder at 2025-04-30 11:26:41
+2025-04-30 11:26:57,082 - INFO - [MAIN THREAD] Scanning folder at 2025-04-30 11:26:57
+2025-04-30 11:27:12,209 - INFO - [MAIN THREAD] Scanning folder at 2025-04-30 11:27:12
+2025-04-30 11:27:27,231 - INFO - [MAIN THREAD] Scanning folder at 2025-04-30 11:27:27
+2025-04-30 11:27:42,307 - INFO - [MAIN THREAD] Scanning folder at 2025-04-30 11:27:42
+2025-04-30 11:27:57,353 - INFO - [MAIN THREAD] Scanning folder at 2025-04-30 11:27:57
+2025-04-30 11:28:12,379 - INFO - [MAIN THREAD] Scanning folder at 2025-04-30 11:28:12
+2025-04-30 11:28:27,421 - INFO - [MAIN THREAD] Scanning folder at 2025-04-30 11:28:27
+2025-04-30 11:28:42,692 - INFO - [MAIN THREAD] Scanning folder at 2025-04-30 11:28:42
+2025-04-30 11:28:58,151 - INFO - [MAIN THREAD] Scanning folder at 2025-04-30 11:28:58
+2025-04-30 11:35:51,871 - INFO - [MAIN THREAD] Scanning folder at 2025-04-30 11:35:51
+2025-04-30 11:35:52,280 - INFO - Starting thread for: clerks_20250430113551.csv
+2025-04-30 11:35:52,282 - INFO - Starting thread for: employees_20250430113551.csv
+2025-04-30 11:35:52,285 - INFO - Starting thread for: hrs_20250430113551.csv
+2025-04-30 11:35:52,286 - INFO - Starting thread for: interns_20250430113551.csv
+2025-04-30 11:35:52,288 - INFO - Starting thread for: managers_20250430113551.csv
+2025-04-30 11:35:52,290 - INFO - Starting thread for: principals_20250430113551.csv
+2025-04-30 11:35:52,292 - INFO - Starting thread for: staffs_20250430113551.csv
+2025-04-30 11:35:52,293 - INFO - Starting thread for: students_20250430113551.csv
+2025-04-30 11:35:52,295 - INFO - Starting thread for: teachers_20250430113551.csv
+2025-04-30 11:35:52,297 - INFO - Starting thread for: workers_20250430113551.csv
+2025-04-30 11:35:52,297 - INFO - Start inserting: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\clerks_20250430113551.csv into clerks
+2025-04-30 11:35:52,298 - INFO - Start inserting: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\employees_20250430113551.csv into emps
+2025-04-30 11:35:52,368 - INFO - Start inserting: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\workers_20250430113551.csv into workers
+2025-04-30 11:35:52,405 - INFO - Start inserting: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\hrs_20250430113551.csv into hr
+2025-04-30 11:35:52,410 - INFO - Start inserting: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\interns_20250430113551.csv into interns
+2025-04-30 11:35:52,411 - INFO - Start inserting: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\staffs_20250430113551.csv into staffs
+2025-04-30 11:35:52,412 - INFO - Start inserting: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\principals_20250430113551.csv into principals
+2025-04-30 11:35:52,420 - INFO - Start inserting: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\managers_20250430113551.csv into managers
+2025-04-30 11:35:52,430 - INFO - Start inserting: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\teachers_20250430113551.csv into teachers
+2025-04-30 11:35:52,442 - INFO - Start inserting: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\students_20250430113551.csv into students
+2025-04-30 11:35:53,458 - ERROR - Error processing C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\workers_20250430113551.csv: (pymysql.err.DataError) (1366, "Incorrect integer value: 'uhudehuo' for column 'id' at row 1")
+[SQL: 
+                INSERT INTO workers (id, workername, Roles)
+                SELECT id, workername, Roles FROM temp_workers;
+            ]
+(Background on this error at: https://sqlalche.me/e/20/9h9h)
+2025-04-30 11:35:53,461 - ERROR - Insertion failed for C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\workers_20250430113551.csv: (pymysql.err.DataError) (1366, "Incorrect integer value: 'uhudehuo' for column 'id' at row 1")
+[SQL: 
+                INSERT INTO workers (id, workername, Roles)
+                SELECT id, workername, Roles FROM temp_workers;
+            ]
+(Background on this error at: https://sqlalche.me/e/20/9h9h)
+2025-04-30 11:35:53,479 - INFO - Moved file to: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\NOT_PROCESSED\workers_20250430113551.csv
+2025-04-30 11:35:53,543 - INFO - Inserted C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\clerks_20250430113551.csv into clerks in 1.18 seconds
+2025-04-30 11:35:53,545 - INFO - Moved file to: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\OUT\clerks_20250430113551.csv
+2025-04-30 11:35:53,649 - INFO - Inserted C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\employees_20250430113551.csv into emps in 1.30 seconds
+2025-04-30 11:35:53,652 - INFO - Moved file to: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\OUT\employees_20250430113551.csv
+2025-04-30 11:35:53,656 - INFO - Inserted C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\hrs_20250430113551.csv into hr in 1.20 seconds
+2025-04-30 11:35:53,672 - INFO - Moved file to: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\OUT\hrs_20250430113551.csv
+2025-04-30 11:35:53,706 - INFO - Inserted C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\principals_20250430113551.csv into principals in 1.24 seconds
+2025-04-30 11:35:53,708 - INFO - Moved file to: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\OUT\principals_20250430113551.csv
+2025-04-30 11:35:53,713 - INFO - Inserted C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\staffs_20250430113551.csv into staffs in 1.25 seconds
+2025-04-30 11:35:53,714 - INFO - Moved file to: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\OUT\staffs_20250430113551.csv
+2025-04-30 11:35:53,729 - INFO - Inserted C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\interns_20250430113551.csv into interns in 1.30 seconds
+2025-04-30 11:35:53,730 - INFO - Moved file to: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\OUT\interns_20250430113551.csv
+2025-04-30 11:35:53,782 - INFO - Inserted C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\managers_20250430113551.csv into managers in 1.32 seconds
+2025-04-30 11:35:53,784 - INFO - Moved file to: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\OUT\managers_20250430113551.csv
+2025-04-30 11:35:53,853 - INFO - Inserted C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\students_20250430113551.csv into students in 1.37 seconds
+2025-04-30 11:35:53,854 - INFO - Moved file to: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\OUT\students_20250430113551.csv
+2025-04-30 11:35:54,110 - INFO - Inserted C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\teachers_20250430113551.csv into teachers in 1.65 seconds
+2025-04-30 11:35:54,112 - INFO - Moved file to: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\OUT\teachers_20250430113551.csv
+2025-04-30 11:36:02,393 - INFO - [RETRY THREAD] Retrying file: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\NOT_PROCESSED\retry_workers_20250430113551.csv
+2025-04-30 11:36:02,394 - INFO - Start inserting: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\NOT_PROCESSED\retry_workers_20250430113551.csv into workers
+2025-04-30 11:36:03,878 - ERROR - Error processing C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\NOT_PROCESSED\retry_workers_20250430113551.csv: (pymysql.err.DataError) (1366, "Incorrect integer value: 'uhudehuo' for column 'id' at row 1")
+[SQL: 
+                INSERT INTO workers (id, workername, Roles)
+                SELECT id, workername, Roles FROM temp_workers;
+            ]
+(Background on this error at: https://sqlalche.me/e/20/9h9h)
+2025-04-30 11:36:03,881 - INFO - Moved file to: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\NOT_PROCESSED\dataerror\retry_workers_20250430113551.csv
+2025-04-30 11:36:03,881 - ERROR - [RETRY THREAD] Moved workers_20250430113551.csv to DATAERROR folder due to data error.
+2025-04-30 11:36:09,114 - INFO - [MAIN THREAD] Scanning folder at 2025-04-30 11:36:09
+2025-04-30 11:36:24,139 - INFO - [MAIN THREAD] Scanning folder at 2025-04-30 11:36:24
+2025-04-30 11:36:39,201 - INFO - [MAIN THREAD] Scanning folder at 2025-04-30 11:36:39
+2025-04-30 11:36:54,296 - INFO - [MAIN THREAD] Scanning folder at 2025-04-30 11:36:54
+2025-04-30 11:37:09,354 - INFO - [MAIN THREAD] Scanning folder at 2025-04-30 11:37:09
+2025-04-30 11:37:24,467 - INFO - [MAIN THREAD] Scanning folder at 2025-04-30 11:37:24
+2025-04-30 11:37:39,622 - INFO - [MAIN THREAD] Scanning folder at 2025-04-30 11:37:39
+2025-04-30 11:37:54,778 - INFO - [MAIN THREAD] Scanning folder at 2025-04-30 11:37:54
+2025-04-30 11:38:09,888 - INFO - [MAIN THREAD] Scanning folder at 2025-04-30 11:38:09
+2025-04-30 11:38:24,995 - INFO - [MAIN THREAD] Scanning folder at 2025-04-30 11:38:24
+2025-04-30 11:38:40,027 - INFO - [MAIN THREAD] Scanning folder at 2025-04-30 11:38:40
+2025-04-30 11:38:55,104 - INFO - [MAIN THREAD] Scanning folder at 2025-04-30 11:38:55
+2025-04-30 12:50:08,201 - INFO - [MAIN THREAD] Scanning folder at 2025-04-30 12:50:08
+2025-04-30 12:50:08,348 - INFO - Starting thread for: clerks_20250430125008.csv
+2025-04-30 12:50:08,349 - INFO - Starting thread for: employees_20250430125008.csv
+2025-04-30 12:50:08,351 - INFO - Starting thread for: hrs_20250430125008.csv
+2025-04-30 12:50:08,353 - INFO - Starting thread for: interns_20250430125008.csv
+2025-04-30 12:50:08,354 - INFO - Starting thread for: managers_20250430125008.csv
+2025-04-30 12:50:08,356 - INFO - Starting thread for: principals_20250430125008.csv
+2025-04-30 12:50:08,362 - INFO - Starting thread for: staffs_20250430125008.csv
+2025-04-30 12:50:08,364 - INFO - Start inserting: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\clerks_20250430125008.csv into clerks
+2025-04-30 12:50:08,365 - INFO - Starting thread for: students_20250430125008.csv
+2025-04-30 12:50:08,368 - INFO - Starting thread for: teachers_20250430125008.csv
+2025-04-30 12:50:08,371 - INFO - Start inserting: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\employees_20250430125008.csv into emps
+2025-04-30 12:50:08,372 - INFO - Starting thread for: workers_20250430125008.csv
+2025-04-30 12:50:08,411 - INFO - Start inserting: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\hrs_20250430125008.csv into hr
+2025-04-30 12:50:08,416 - INFO - Start inserting: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\managers_20250430125008.csv into managers
+2025-04-30 12:50:08,419 - INFO - Start inserting: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\interns_20250430125008.csv into interns
+2025-04-30 12:50:08,429 - INFO - Start inserting: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\staffs_20250430125008.csv into staffs
+2025-04-30 12:50:08,432 - INFO - Start inserting: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\principals_20250430125008.csv into principals
+2025-04-30 12:50:08,433 - INFO - Start inserting: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\students_20250430125008.csv into students
+2025-04-30 12:50:08,448 - INFO - Start inserting: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\workers_20250430125008.csv into workers
+2025-04-30 12:50:08,449 - INFO - Start inserting: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\teachers_20250430125008.csv into teachers
+2025-04-30 12:50:10,438 - INFO - Inserted C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\hrs_20250430125008.csv into hr in 2.01 seconds
+2025-04-30 12:50:10,440 - INFO - Moved file to: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\OUT\hrs_20250430125008.csv
+2025-04-30 12:50:10,458 - ERROR - Error processing C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\employees_20250430125008.csv: (pymysql.err.OperationalError) (1054, "Unknown column 'tmp.internname' in 'on clause'")
+[SQL: 
+                UPDATE emps t
+                JOIN temp_emps tmp ON t.id = tmp.id AND t.internname = tmp.internname
+                SET t.Roles = tmp.Roles;
+            ]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-04-30 12:50:10,460 - ERROR - Insertion failed for C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\employees_20250430125008.csv: (pymysql.err.OperationalError) (1054, "Unknown column 'tmp.internname' in 'on clause'")
+[SQL: 
+                UPDATE emps t
+                JOIN temp_emps tmp ON t.id = tmp.id AND t.internname = tmp.internname
+                SET t.Roles = tmp.Roles;
+            ]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-04-30 12:50:10,463 - INFO - Moved file to: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\NOT_PROCESSED\employees_20250430125008.csv
+2025-04-30 12:50:10,472 - INFO - Inserted C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\managers_20250430125008.csv into managers in 2.03 seconds
+2025-04-30 12:50:10,473 - INFO - Moved file to: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\OUT\managers_20250430125008.csv
+2025-04-30 12:50:10,479 - INFO - Inserted C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\staffs_20250430125008.csv into staffs in 2.03 seconds
+2025-04-30 12:50:10,480 - INFO - Moved file to: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\OUT\staffs_20250430125008.csv
+2025-04-30 12:50:10,545 - INFO - Inserted C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\students_20250430125008.csv into students in 2.08 seconds
+2025-04-30 12:50:10,547 - INFO - Moved file to: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\OUT\students_20250430125008.csv
+2025-04-30 12:50:10,553 - INFO - Inserted C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\workers_20250430125008.csv into workers in 2.08 seconds
+2025-04-30 12:50:10,555 - INFO - Moved file to: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\OUT\workers_20250430125008.csv
+2025-04-30 12:50:10,592 - INFO - Inserted C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\clerks_20250430125008.csv into clerks in 2.20 seconds
+2025-04-30 12:50:10,594 - INFO - Moved file to: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\OUT\clerks_20250430125008.csv
+2025-04-30 12:50:10,600 - INFO - Inserted C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\interns_20250430125008.csv into interns in 2.14 seconds
+2025-04-30 12:50:10,602 - INFO - Moved file to: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\OUT\interns_20250430125008.csv
+2025-04-30 12:50:10,608 - INFO - Inserted C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\principals_20250430125008.csv into principals in 2.14 seconds
+2025-04-30 12:50:10,609 - INFO - Moved file to: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\OUT\principals_20250430125008.csv
+2025-04-30 12:50:10,625 - INFO - Inserted C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\teachers_20250430125008.csv into teachers in 2.12 seconds
+2025-04-30 12:50:10,628 - INFO - Moved file to: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\OUT\teachers_20250430125008.csv
+2025-04-30 12:50:18,351 - INFO - [RETRY THREAD] Retrying file: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\NOT_PROCESSED\retry_employees_20250430125008.csv
+2025-04-30 12:50:18,352 - INFO - Start inserting: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\NOT_PROCESSED\retry_employees_20250430125008.csv into emps
+2025-04-30 12:50:20,957 - ERROR - Error processing C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\NOT_PROCESSED\retry_employees_20250430125008.csv: (pymysql.err.OperationalError) (1054, "Unknown column 'tmp.internname' in 'on clause'")
+[SQL: 
+                UPDATE emps t
+                JOIN temp_emps tmp ON t.id = tmp.id AND t.internname = tmp.internname
+                SET t.Roles = tmp.Roles;
+            ]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-04-30 12:50:20,961 - INFO - Moved file to: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\NOT_PROCESSED\dataerror\retry_employees_20250430125008.csv
+2025-04-30 12:50:20,966 - ERROR - [RETRY THREAD] Moved employees_20250430125008.csv to DATAERROR folder due to data error.
+2025-04-30 12:50:25,630 - INFO - [MAIN THREAD] Scanning folder at 2025-04-30 12:50:25
+2025-04-30 12:50:40,710 - INFO - [MAIN THREAD] Scanning folder at 2025-04-30 12:50:40
+2025-04-30 12:50:55,743 - INFO - [MAIN THREAD] Scanning folder at 2025-04-30 12:50:55
+2025-04-30 12:51:10,961 - INFO - [MAIN THREAD] Scanning folder at 2025-04-30 12:51:10
+2025-04-30 12:51:26,074 - INFO - [MAIN THREAD] Scanning folder at 2025-04-30 12:51:26
+2025-04-30 12:51:41,101 - INFO - [MAIN THREAD] Scanning folder at 2025-04-30 12:51:41
+2025-04-30 12:51:56,176 - INFO - [MAIN THREAD] Scanning folder at 2025-04-30 12:51:56
+2025-04-30 12:52:11,243 - INFO - [MAIN THREAD] Scanning folder at 2025-04-30 12:52:11
+2025-04-30 12:52:26,275 - INFO - [MAIN THREAD] Scanning folder at 2025-04-30 12:52:26
+2025-04-30 12:52:41,537 - INFO - [MAIN THREAD] Scanning folder at 2025-04-30 12:52:41
+2025-04-30 12:52:56,596 - INFO - [MAIN THREAD] Scanning folder at 2025-04-30 12:52:56
+2025-04-30 12:53:11,959 - INFO - [MAIN THREAD] Scanning folder at 2025-04-30 12:53:11
+2025-04-30 12:57:14,192 - INFO - [MAIN THREAD] Scanning folder at 2025-04-30 12:57:14
+2025-04-30 12:57:14,376 - INFO - Starting thread for: clerks_20250430125714.csv
+2025-04-30 12:57:14,378 - INFO - Starting thread for: employees_20250430125714.csv
+2025-04-30 12:57:14,380 - INFO - Starting thread for: hrs_20250430125714.csv
+2025-04-30 12:57:14,381 - INFO - Starting thread for: interns_20250430125714.csv
+2025-04-30 12:57:14,383 - INFO - Starting thread for: managers_20250430125714.csv
+2025-04-30 12:57:14,384 - INFO - Starting thread for: principals_20250430125714.csv
+2025-04-30 12:57:14,387 - INFO - Starting thread for: staffs_20250430125714.csv
+2025-04-30 12:57:14,392 - INFO - Start inserting: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\clerks_20250430125714.csv into clerks
+2025-04-30 12:57:14,394 - INFO - Starting thread for: students_20250430125714.csv
+2025-04-30 12:57:14,395 - INFO - Starting thread for: teachers_20250430125714.csv
+2025-04-30 12:57:14,396 - INFO - Start inserting: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\employees_20250430125714.csv into emps
+2025-04-30 12:57:14,398 - INFO - Starting thread for: workers_20250430125714.csv
+2025-04-30 12:57:14,409 - INFO - Start inserting: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\staffs_20250430125714.csv into staffs
+2025-04-30 12:57:14,418 - INFO - Start inserting: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\teachers_20250430125714.csv into teachers
+2025-04-30 12:57:14,439 - INFO - Start inserting: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\hrs_20250430125714.csv into hr
+2025-04-30 12:57:14,445 - INFO - Start inserting: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\interns_20250430125714.csv into interns
+2025-04-30 12:57:14,446 - INFO - Start inserting: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\managers_20250430125714.csv into managers
+2025-04-30 12:57:14,446 - INFO - Start inserting: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\students_20250430125714.csv into students
+2025-04-30 12:57:14,454 - INFO - Start inserting: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\principals_20250430125714.csv into principals
+2025-04-30 12:57:14,477 - INFO - Start inserting: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\workers_20250430125714.csv into workers
+2025-04-30 12:57:16,340 - INFO - Inserted C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\clerks_20250430125714.csv into clerks in 1.92 seconds
+2025-04-30 12:57:16,352 - INFO - Moved file to: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\OUT\clerks_20250430125714.csv
+2025-04-30 12:57:16,417 - INFO - Inserted C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\staffs_20250430125714.csv into staffs in 1.98 seconds
+2025-04-30 12:57:16,430 - INFO - Moved file to: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\OUT\staffs_20250430125714.csv
+2025-04-30 12:57:16,441 - INFO - Inserted C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\hrs_20250430125714.csv into hr in 1.95 seconds
+2025-04-30 12:57:16,443 - INFO - Moved file to: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\OUT\hrs_20250430125714.csv
+2025-04-30 12:57:16,449 - INFO - Inserted C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\interns_20250430125714.csv into interns in 1.95 seconds
+2025-04-30 12:57:16,451 - INFO - Moved file to: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\OUT\interns_20250430125714.csv
+2025-04-30 12:57:16,454 - INFO - Inserted C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\teachers_20250430125714.csv into teachers in 1.99 seconds
+2025-04-30 12:57:16,456 - INFO - Moved file to: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\OUT\teachers_20250430125714.csv
+2025-04-30 12:57:16,491 - INFO - Inserted C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\students_20250430125714.csv into students in 2.00 seconds
+2025-04-30 12:57:16,507 - INFO - Moved file to: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\OUT\students_20250430125714.csv
+2025-04-30 12:57:16,512 - INFO - Inserted C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\managers_20250430125714.csv into managers in 2.01 seconds
+2025-04-30 12:57:16,514 - INFO - Moved file to: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\OUT\managers_20250430125714.csv
+2025-04-30 12:57:16,549 - INFO - Inserted C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\workers_20250430125714.csv into workers in 2.04 seconds
+2025-04-30 12:57:16,554 - INFO - Moved file to: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\OUT\workers_20250430125714.csv
+2025-04-30 12:57:16,744 - INFO - Inserted C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\employees_20250430125714.csv into emps in 2.32 seconds
+2025-04-30 12:57:16,745 - INFO - Moved file to: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\OUT\employees_20250430125714.csv
+2025-04-30 12:57:16,785 - INFO - Inserted C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\principals_20250430125714.csv into principals in 2.31 seconds
+2025-04-30 12:57:16,786 - INFO - Moved file to: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\OUT\principals_20250430125714.csv
+2025-04-30 12:57:31,788 - INFO - [MAIN THREAD] Scanning folder at 2025-04-30 12:57:31
+2025-04-30 12:57:46,919 - INFO - [MAIN THREAD] Scanning folder at 2025-04-30 12:57:46
+2025-04-30 12:58:02,121 - INFO - [MAIN THREAD] Scanning folder at 2025-04-30 12:58:02
+2025-04-30 12:58:17,173 - INFO - [MAIN THREAD] Scanning folder at 2025-04-30 12:58:17
+2025-04-30 12:58:32,201 - INFO - [MAIN THREAD] Scanning folder at 2025-04-30 12:58:32
+2025-04-30 12:58:47,358 - INFO - [MAIN THREAD] Scanning folder at 2025-04-30 12:58:47
+2025-04-30 12:59:02,495 - INFO - [MAIN THREAD] Scanning folder at 2025-04-30 12:59:02
+2025-04-30 12:59:17,580 - INFO - [MAIN THREAD] Scanning folder at 2025-04-30 12:59:17
+2025-04-30 13:01:13,689 - INFO - [MAIN THREAD] Scanning folder at 2025-04-30 13:01:13
+2025-04-30 13:01:14,548 - INFO - Starting thread for: clerks_20250430130113.csv
+2025-04-30 13:01:14,550 - INFO - Starting thread for: employees_20250430130113.csv
+2025-04-30 13:01:14,552 - INFO - Starting thread for: hrs_20250430130113.csv
+2025-04-30 13:01:14,553 - INFO - Starting thread for: interns_20250430130113.csv
+2025-04-30 13:01:14,555 - INFO - Starting thread for: managers_20250430130113.csv
+2025-04-30 13:01:14,557 - INFO - Starting thread for: principals_20250430130113.csv
+2025-04-30 13:01:14,559 - INFO - Starting thread for: staffs_20250430130113.csv
+2025-04-30 13:01:14,562 - INFO - Starting thread for: students_20250430130113.csv
+2025-04-30 13:01:14,564 - INFO - Starting thread for: teachers_20250430130113.csv
+2025-04-30 13:01:14,565 - INFO - Start inserting: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\employees_20250430130113.csv into emps
+2025-04-30 13:01:14,566 - INFO - Start inserting: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\clerks_20250430130113.csv into clerks
+2025-04-30 13:01:14,567 - INFO - Starting thread for: workers_20250430130113.csv
+2025-04-30 13:01:14,578 - INFO - Start inserting: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\teachers_20250430130113.csv into teachers
+2025-04-30 13:01:14,612 - INFO - Start inserting: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\hrs_20250430130113.csv into hr
+2025-04-30 13:01:14,621 - INFO - Start inserting: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\staffs_20250430130113.csv into staffs
+2025-04-30 13:01:14,622 - INFO - Start inserting: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\principals_20250430130113.csv into principals
+2025-04-30 13:01:14,630 - INFO - Start inserting: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\managers_20250430130113.csv into managers
+2025-04-30 13:01:14,637 - INFO - Start inserting: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\interns_20250430130113.csv into interns
+2025-04-30 13:01:14,637 - INFO - Start inserting: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\workers_20250430130113.csv into workers
+2025-04-30 13:01:14,646 - INFO - Start inserting: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\students_20250430130113.csv into students
+2025-04-30 13:01:16,955 - INFO - Inserted C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\hrs_20250430130113.csv into hr in 2.31 seconds
+2025-04-30 13:01:16,957 - INFO - Moved file to: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\OUT\hrs_20250430130113.csv
+2025-04-30 13:01:17,005 - INFO - Inserted C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\teachers_20250430130113.csv into teachers in 2.39 seconds
+2025-04-30 13:01:17,009 - INFO - Moved file to: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\OUT\teachers_20250430130113.csv
+2025-04-30 13:01:17,011 - INFO - Inserted C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\employees_20250430130113.csv into emps in 2.41 seconds
+2025-04-30 13:01:17,015 - INFO - Moved file to: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\OUT\employees_20250430130113.csv
+2025-04-30 13:01:17,017 - INFO - Inserted C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\clerks_20250430130113.csv into clerks in 2.42 seconds
+2025-04-30 13:01:17,019 - INFO - Moved file to: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\OUT\clerks_20250430130113.csv
+2025-04-30 13:01:17,028 - INFO - Inserted C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\managers_20250430130113.csv into managers in 2.38 seconds
+2025-04-30 13:01:17,030 - INFO - Moved file to: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\OUT\managers_20250430130113.csv
+2025-04-30 13:01:17,036 - INFO - Inserted C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\workers_20250430130113.csv into workers in 2.37 seconds
+2025-04-30 13:01:17,038 - INFO - Moved file to: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\OUT\workers_20250430130113.csv
+2025-04-30 13:01:17,042 - INFO - Inserted C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\interns_20250430130113.csv into interns in 2.39 seconds
+2025-04-30 13:01:17,043 - INFO - Moved file to: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\OUT\interns_20250430130113.csv
+2025-04-30 13:01:17,060 - INFO - Inserted C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\staffs_20250430130113.csv into staffs in 2.41 seconds
+2025-04-30 13:01:17,062 - INFO - Moved file to: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\OUT\staffs_20250430130113.csv
+2025-04-30 13:01:17,083 - INFO - Inserted C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\principals_20250430130113.csv into principals in 2.43 seconds
+2025-04-30 13:01:17,085 - INFO - Moved file to: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\OUT\principals_20250430130113.csv
+2025-04-30 13:01:17,267 - INFO - Inserted C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\students_20250430130113.csv into students in 2.59 seconds
+2025-04-30 13:01:17,269 - INFO - Moved file to: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\OUT\students_20250430130113.csv
+2025-04-30 13:01:32,271 - INFO - [MAIN THREAD] Scanning folder at 2025-04-30 13:01:32
+2025-04-30 13:01:47,362 - INFO - [MAIN THREAD] Scanning folder at 2025-04-30 13:01:47
+2025-04-30 13:48:41,055 - INFO - [MAIN THREAD] Scanning folder at 2025-04-30 13:48:41
+2025-04-30 13:48:41,234 - INFO - Starting thread for: clerks_20250430134841.csv
+2025-04-30 13:48:41,236 - INFO - Starting thread for: employees_20250430134841.csv
+2025-04-30 13:48:41,238 - INFO - Starting thread for: hrs_20250430134841.csv
+2025-04-30 13:48:41,239 - INFO - Starting thread for: interns_20250430134841.csv
+2025-04-30 13:48:41,247 - INFO - Starting thread for: managers_20250430134841.csv
+2025-04-30 13:48:41,249 - INFO - Starting thread for: principals_20250430134841.csv
+2025-04-30 13:48:41,250 - INFO - Starting thread for: staffs_20250430134841.csv
+2025-04-30 13:48:41,253 - INFO - Starting thread for: students_20250430134841.csv
+2025-04-30 13:48:41,254 - INFO - Start inserting: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\clerks_20250430134841.csv into clerks
+2025-04-30 13:48:41,256 - INFO - Starting thread for: teachers_20250430134841.csv
+2025-04-30 13:48:41,260 - INFO - Starting thread for: workers_20250430134841.csv
+2025-04-30 13:48:41,307 - INFO - Start inserting: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\employees_20250430134841.csv into emps
+2025-04-30 13:48:41,308 - INFO - Start inserting: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\interns_20250430134841.csv into interns
+2025-04-30 13:48:41,308 - INFO - Start inserting: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\principals_20250430134841.csv into principals
+2025-04-30 13:48:41,309 - INFO - Start inserting: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\staffs_20250430134841.csv into staffs
+2025-04-30 13:48:41,312 - INFO - Start inserting: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\hrs_20250430134841.csv into hr
+2025-04-30 13:48:41,323 - INFO - Start inserting: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\managers_20250430134841.csv into managers
+2025-04-30 13:48:41,430 - INFO - Start inserting: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\teachers_20250430134841.csv into teachers
+2025-04-30 13:48:41,430 - INFO - Start inserting: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\workers_20250430134841.csv into workers
+2025-04-30 13:48:41,431 - INFO - Start inserting: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\students_20250430134841.csv into students
+2025-04-30 13:48:51,527 - INFO - Inserted C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\staffs_20250430134841.csv into staffs in 10.19 seconds
+2025-04-30 13:48:51,529 - INFO - Moved file to: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\OUT\staffs_20250430134841.csv
+2025-04-30 13:48:51,660 - INFO - Inserted C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\clerks_20250430134841.csv into clerks in 10.38 seconds
+2025-04-30 13:48:51,662 - INFO - Moved file to: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\OUT\clerks_20250430134841.csv
+2025-04-30 13:48:51,695 - INFO - Inserted C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\principals_20250430134841.csv into principals in 10.36 seconds
+2025-04-30 13:48:51,696 - INFO - Moved file to: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\OUT\principals_20250430134841.csv
+2025-04-30 13:48:51,773 - INFO - Inserted C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\employees_20250430134841.csv into emps in 10.44 seconds
+2025-04-30 13:48:51,775 - INFO - Moved file to: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\OUT\employees_20250430134841.csv
+2025-04-30 13:48:51,805 - INFO - Inserted C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\interns_20250430134841.csv into interns in 10.47 seconds
+2025-04-30 13:48:51,806 - INFO - Moved file to: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\OUT\interns_20250430134841.csv
+2025-04-30 13:48:51,897 - INFO - Inserted C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\managers_20250430134841.csv into managers in 10.54 seconds
+2025-04-30 13:48:51,899 - INFO - Moved file to: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\OUT\managers_20250430134841.csv
+2025-04-30 13:48:51,921 - INFO - Inserted C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\students_20250430134841.csv into students in 10.46 seconds
+2025-04-30 13:48:51,923 - INFO - Moved file to: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\OUT\students_20250430134841.csv
+2025-04-30 13:48:51,958 - INFO - Inserted C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\teachers_20250430134841.csv into teachers in 10.50 seconds
+2025-04-30 13:48:51,960 - INFO - Moved file to: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\OUT\teachers_20250430134841.csv
+2025-04-30 13:48:51,969 - INFO - Inserted C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\workers_20250430134841.csv into workers in 10.51 seconds
+2025-04-30 13:48:51,971 - INFO - Moved file to: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\OUT\workers_20250430134841.csv
+2025-04-30 13:48:52,060 - INFO - Inserted C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\hrs_20250430134841.csv into hr in 10.72 seconds
+2025-04-30 13:48:52,062 - INFO - Moved file to: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\OUT\hrs_20250430134841.csv
+2025-04-30 13:49:17,064 - INFO - [MAIN THREAD] Scanning folder at 2025-04-30 13:49:17
+2025-04-30 13:49:42,182 - INFO - [MAIN THREAD] Scanning folder at 2025-04-30 13:49:42
+2025-04-30 13:51:26,137 - INFO - [MAIN THREAD] Scanning folder at 2025-04-30 13:51:26
+2025-04-30 13:51:26,299 - INFO - Starting thread for: clerks_20250430135126.csv
+2025-04-30 13:51:26,301 - INFO - Starting thread for: employees_20250430135126.csv
+2025-04-30 13:51:26,303 - INFO - Starting thread for: hrs_20250430135126.csv
+2025-04-30 13:51:26,307 - INFO - Starting thread for: interns_20250430135126.csv
+2025-04-30 13:51:26,309 - INFO - Starting thread for: managers_20250430135126.csv
+2025-04-30 13:51:26,312 - INFO - Starting thread for: principals_20250430135126.csv
+2025-04-30 13:51:26,316 - INFO - Starting thread for: staffs_20250430135126.csv
+2025-04-30 13:51:26,320 - INFO - Starting thread for: students_20250430135126.csv
+2025-04-30 13:51:26,325 - INFO - Start inserting: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\clerks_20250430135126.csv into clerks
+2025-04-30 13:51:26,327 - INFO - Starting thread for: teachers_20250430135126.csv
+2025-04-30 13:51:26,330 - INFO - Starting thread for: workers_20250430135126.csv
+2025-04-30 13:51:26,425 - INFO - Start inserting: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\employees_20250430135126.csv into emps
+2025-04-30 13:51:26,426 - INFO - Start inserting: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\hrs_20250430135126.csv into hr
+2025-04-30 13:51:26,433 - INFO - Start inserting: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\interns_20250430135126.csv into interns
+2025-04-30 13:51:26,439 - INFO - Start inserting: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\staffs_20250430135126.csv into staffs
+2025-04-30 13:51:26,439 - INFO - Start inserting: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\managers_20250430135126.csv into managers
+2025-04-30 13:51:26,439 - INFO - Start inserting: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\students_20250430135126.csv into students
+2025-04-30 13:51:26,441 - INFO - Start inserting: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\principals_20250430135126.csv into principals
+2025-04-30 13:51:26,451 - INFO - Start inserting: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\teachers_20250430135126.csv into teachers
+2025-04-30 13:51:26,459 - INFO - Start inserting: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\workers_20250430135126.csv into workers
+2025-04-30 13:51:36,624 - INFO - Inserted C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\staffs_20250430135126.csv into staffs in 10.14 seconds
+2025-04-30 13:51:36,642 - INFO - Moved file to: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\OUT\staffs_20250430135126.csv
+2025-04-30 13:51:36,984 - INFO - Inserted C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\hrs_20250430135126.csv into hr in 10.52 seconds
+2025-04-30 13:51:36,986 - INFO - Moved file to: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\OUT\hrs_20250430135126.csv
+2025-04-30 13:51:37,047 - INFO - Inserted C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\clerks_20250430135126.csv into clerks in 10.70 seconds
+2025-04-30 13:51:37,049 - INFO - Moved file to: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\OUT\clerks_20250430135126.csv
+2025-04-30 13:51:37,133 - INFO - Inserted C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\principals_20250430135126.csv into principals in 10.66 seconds
+2025-04-30 13:51:37,135 - INFO - Moved file to: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\OUT\principals_20250430135126.csv
+2025-04-30 13:51:37,160 - INFO - Inserted C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\employees_20250430135126.csv into emps in 10.71 seconds
+2025-04-30 13:51:37,162 - INFO - Moved file to: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\OUT\employees_20250430135126.csv
+2025-04-30 13:51:37,186 - INFO - Inserted C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\managers_20250430135126.csv into managers in 10.72 seconds
+2025-04-30 13:51:37,189 - INFO - Moved file to: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\OUT\managers_20250430135126.csv
+2025-04-30 13:51:37,194 - INFO - Inserted C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\interns_20250430135126.csv into interns in 10.73 seconds
+2025-04-30 13:51:37,197 - INFO - Moved file to: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\OUT\interns_20250430135126.csv
+2025-04-30 13:51:37,210 - INFO - Inserted C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\teachers_20250430135126.csv into teachers in 10.74 seconds
+2025-04-30 13:51:37,213 - INFO - Moved file to: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\OUT\teachers_20250430135126.csv
+2025-04-30 13:51:37,270 - INFO - Inserted C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\students_20250430135126.csv into students in 10.81 seconds
+2025-04-30 13:51:37,272 - INFO - Moved file to: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\OUT\students_20250430135126.csv
+2025-04-30 13:51:37,344 - INFO - Inserted C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\IN\workers_20250430135126.csv into workers in 10.86 seconds
+2025-04-30 13:51:37,346 - INFO - Moved file to: C:\Users\Nagaraja\Downloads\Training Finsurge-Siva M-Python\Training Finsurge\threadanddb\OUT\workers_20250430135126.csv
